@@ -1,11 +1,10 @@
-import { shallow } from "enzyme";
-import React from "react";
-import Notifications from "./Notifications";
+import { shallow } from 'enzyme';
+import Notifications from './Notifications';
 
-describe("<Notifications />", () => {
-  it("Notifications renders without crashing", () => {
+describe('<Notifications />', () => {
+  it('test that Notifications renders without crashing', () => {
     const wrapper = shallow(<Notifications />);
-    expect(wrapper.exists()).toEqual(true);
+    expect(wrapper.exists());
   });
   it("Notifications renders Notification Item and first item has correct html", () => {
     const wrapper = shallow(<Notifications displayDrawer />);

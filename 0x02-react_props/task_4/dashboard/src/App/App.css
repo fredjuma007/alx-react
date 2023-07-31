@@ -1,12 +1,14 @@
-:root {
-  --main-color: #e01d3f;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,300&display=swap");
 
-.App {
-  border-bottom: 3px solid var(--main-color);
+.App-logo {
+  height: 30vmin;
 }
 
 .App-body {
-  display: flex;
-  justify-content: center;
+  margin: 50px 40px;
+}
+
+.App-container {
+  position: relative;
+  min-height: 100vh;
 }
