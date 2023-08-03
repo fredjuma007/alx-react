@@ -1,8 +1,8 @@
-.App-footer {
-  border-top: 3px solid #F2003A;
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
   text-align: center;
   font-style: italic;
-  font-size: 20;
-  font-family: 'Poppins', sans-serif;
-
+  border-top: thick solid #e0344a;
 }
